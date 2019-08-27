@@ -2,7 +2,7 @@
 
 set -euo pipefail
 
-echo 'Done'
+echo 'Failed'
 
-exit 0
+exit 1
 
