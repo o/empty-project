@@ -1,0 +1,16 @@
+name: Basic build
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v1
+    - name: run build.sh
+      run: |
+        ./build.sh
+      env:
+        CI: true
+        GITHUB: true
