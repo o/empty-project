@@ -2,7 +2,6 @@
 
 set -euo pipefail
 
-echo 'Failed'
+readonly name='osman'
 
-exit 1
-
+echo "${surname}"
